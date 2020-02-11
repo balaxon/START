@@ -1,14 +1,43 @@
- ##**Aliaksandr Balahanau**
-1. * E-mail: balahanov2209@gmail.com
-	* Phone number: +375 44 783 46 99
-
-1. *   Analytical thinking
-	*  Teamwork
-	*   Learnability
-1. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
-1. Code examples (LATEST)
-1. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
-freelance projects - wherever they had the opportunity to demonstrate skills they have.
-Also it would be awesome if you add links to source code)
-1. Education (including courses, seminars, lectures, online learning)
-1. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
+ # **Aliaksandr Balahanau** 
+## Contact Info:
+* E-mail: balahanov2209@gmail.com
+* Phone number: +375 44 783 46 99
+## Summary:
+* Analytical thinking
+*  Teamwork
+*   Learnability
+## Skills:
+### Basic knowledge in:
+* HTML
+* CSS
+* JavaScript
+* SQL
+* OOP
+* Git
+* Hardware
+## Code examples:
+    function solution(input, markers) { 
+	    markers = markers.toString().split(','); 
+	    input = input.split('\n')
+	    let result = ''; 
+	    let prom=''; 
+	    for (let i=0;i<input.length;i++) 
+	    { 
+			for(let k=0;k<markers.length;k++) 
+			{
+				if(input[i].includes(markers[k])==true){
+ 				input[i]=input[i].split(markers[k])[0]} 
+ 			}
+ 				result=result+input[i].trim()+'\n'; 
+ 		} 
+ 			return result.trim(); 
+ 	};
+## Experience:
+#### Not yet
+## Education:
+* International Sakharov Environmental Institute of Belarusian State University, Specialization: Information systems and technologies
+* [http://www.sql-ex.ru/](http://www.sql-ex.ru/)
+* [https://www.codewars.com/](https://www.codewars.com/)
+* Online learning: HTML, CSS, JavaScript
+## Languages:
+* English: A2
