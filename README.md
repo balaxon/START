@@ -1,1 +1,1 @@
-https://balaxon.github.io/START/cv.md
+https://balaxon.github.io/START/cv
